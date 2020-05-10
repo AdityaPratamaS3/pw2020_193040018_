@@ -31,7 +31,7 @@ $mahasiswa = $rows;
   <h3>Daftar Mahasiswa</h3>
   <table border="1" cellpadding="10" cellpacing="0">
     <tr>
-      <th>#</th>
+      <th>No</th>
       <th>Gambar</th>
       <th>NRP</th>
       <th>Nama</th>

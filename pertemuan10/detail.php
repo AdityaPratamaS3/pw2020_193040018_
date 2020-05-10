@@ -1,7 +1,7 @@
 <?php
 require 'functions.php';
 
-//ambil id dari url
+//ambil id dari URL
 $id = $_GET['id'];
 
 //query mahasiswa berdasarkan id
@@ -19,7 +19,7 @@ $m = query("SELECT * FROM mahasiswa WHere id=$id");
 <body>
   <h3>Detail Mahasiswa</h3>
   <ul>
-    <li><img src="img/ayah.jpg " width="50"></li>
+    <li><img src="img/profil.jpg " width="60"></li>
     <li>Nrp: <?= $m['nrp']; ?></li>
     <li>Nama : <?= $m['nama']; ?></li>
     <li>Email : <?= $m['email']; ?></li>
